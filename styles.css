@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50, 50, 169);
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: red;
+}
+
+.container {
+  margin: auto;
+  max-width: 700px;
+  padding-top: 30px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 30px;
+}
+
+.info-text h4 {
+  margin-bottom: 7px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+  margin: 10px 0;
+}
+
+#table {
+  width: 100%;
+}
+
+#table td {
+  padding-bottom: 10px;
+}
+
+.table-head th {
+  text-align: left;
+}
+
+.table-head tr:nth-child(odd) {
+  background-color: #eeefff;
+}
+
+tbody td:nth-child(2),
+tbody td:nth-child(3) {
+  color: #404247;
+}
+
+.sections {
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 10px;
+  max-width: 700;
+}
+
+.sections h2 {
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+.work {
+  background-color: rgb(199, 252, 235);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.hobbies {
+  background-color: rgb(255, 217, 217);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.hobbies ol {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.hobbies ol li {
+  color: #3f4043;
+  margin-bottom: 10px;
+}
+
+.contacts {
+  background-color: rgb(210, 229, 249);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+#message {
+  border: none;
+  padding: 0.5rem;
+  border-radius: 6px;
+  background: rgb(60, 60, 233);
+  color: white;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: calc(50% - 20px);
+}
+
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #404247;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+#message {
+    width: 6rem;
+    font-size: 1rem;
+    font-family: inherit;;
+}
+
+#message:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .form-row .form-group {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
